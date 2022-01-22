@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Seek App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" type="image/png" href="images/weblogo.png" />
+  </head>
+  <body>
+    <header>
+      <div class="content">
+        <h1>Color Seek App 🤗</h1>
+        <p>
+          You can select palettes in the dropdown to see different color tones
+        </p>
+      </div>
+
+      <div class="dropdown">
+        <div class="dropdown-select">
+          <span class="select">Select Color</span>
+          <i class="fa fa-caret-down icon"></i>
+        </div>
+        <div class="dropdown-list">
+          <div class="dropdown-list__item">
+            <button data-popup-target="#popup">🔵 BLUE</button>
+          </div>
+          <div class="dropdown-list__item">
+            <button data-popup-target="#popup02">🟢 GREEN</button>
+          </div>
+          <div class="dropdown-list__item">
+            <button data-popup-target="#popup03">⚫ BLACK</button>
+          </div>
+          <div class="dropdown-list__item">
+            <button data-popup-target="#popup04">🟠 ORANGE</button>
+          </div>
+          <div class="dropdown-list__item">
+            <button data-popup-target="#popup05">⚪ WHITE</button>
+          </div>
+          <div class="dropdown-list__item">
+            <button data-popup-target="#popup06">🟡 YELLOW</button>
+          </div>
+          <div class="dropdown-list__item">
+            <button data-popup-target="#popup07">🔴 RED</button>
+          </div>
+          <div class="dropdown-list__item">
+            <button data-popup-target="#popup08">🟣 PURPLE</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="popup" id="popup">
+      <div class="popup-header">
+        <div class="title">🟦 BLUE</div>
+        <button data-close-button class="close-button">&times;</button>
+      </div>
+      <div class="items">
+        <div class="item-list-1-1" id="blue1"><h3>#84DFFF</h3></div>
+        <div class="item-list-1-2" id="blue2"><h3>#1C6DD0</h3></div>
+        <div class="item-list-1-3" id="blue3"><h3>#35589A</h3></div>
+        <div class="item-list-1-4" id="blue4"><h3>#2F86A6</h3></div>
+        <div class="item-list-1-5" id="blue5"><h3>#99FEFF</h3></div>
+        <div class="item-list-1-6" id="blue6"><h3>#1597E5</h3></div>
+        <div class="item-list-1-7" id="blue7"><h3>#041562</h3></div>
+        <div class="item-list-1-8" id="blue8"><h3>#90AACB</h3></div>
+        <div class="item-list-1-9" id="blue9"><h3>#A2D2FF</h3></div>
+      </div>
+    </div>
+
+    <div class="popup" id="popup02">
+      <div class="popup-header">
+        <div class="title">🟩 GREEN</div>
+        <button data-close-button class="close-button">&times;</button>
+      </div>
+      <div class="items">
+        <div class="item-list-1-1" id="green1"><h3>#91C483</h3></div>
+        <div class="item-list-1-2" id="green2"><h3>#BAFFB4</h3></div>
+        <div class="item-list-1-3" id="green3"><h3>#064635</h3></div>
+        <div class="item-list-1-4" id="green4"><h3>#E7FBBE</h3></div>
+        <div class="item-list-1-5" id="green5"><h3>#557C55</h3></div>
+        <div class="item-list-1-6" id="green6"><h3>#519259</h3></div>
+        <div class="item-list-1-7" id="green7"><h3>#49FF00</h3></div>
+        <div class="item-list-1-8" id="green8"><h3>#77D970</h3></div>
+        <div class="item-list-1-9" id="green9"><h3>#BFD8B8</h3></div>
+      </div>
+    </div>
+
+    <div class="popup" id="popup03">
+      <div class="popup-header">
+        <div class="title">⬛ BLACK</div>
+        <button data-close-button class="close-button">&times;</button>
+      </div>
+      <div class="items">
+        <div class="item-list-1-1" id="black1"><h3>#000000</h3></div>
+        <div class="item-list-1-2" id="black2"><h3>#212121</h3></div>
+        <div class="item-list-1-3" id="black3"><h3>#112031</h3></div>
+        <div class="item-list-1-4" id="black4"><h3>#444444</h3></div>
+        <div class="item-list-1-5" id="black5"><h3>#2B2B2B</h3></div>
+        <div class="item-list-1-6" id="black6"><h3>#343A40</h3></div>
+        <div class="item-list-1-7" id="black7"><h3>#1B1A17</h3></div>
+        <div class="item-list-1-8" id="black8"><h3>#393E46</h3></div>
+        <div class="item-list-1-9" id="black9"><h3>#07031A</h3></div>
+      </div>
+    </div>
+
+    <div class="popup" id="popup04">
+      <div class="popup-header">
+        <div class="title">🟧 ORANGE</div>
+        <button data-close-button class="close-button">&times;</button>
+      </div>
+      <div class="items">
+        <div class="item-list-1-1" id="orange1"><h3>#FE7E6D</h3></div>
+        <div class="item-list-1-2" id="orange2"><h3>#FFAB76</h3></div>
+        <div class="item-list-1-3" id="orange3"><h3>#F47340</h3></div>
+        <div class="item-list-1-4" id="orange4"><h3>#FABB51</h3></div>
+        <div class="item-list-1-5" id="orange5"><h3>#FC9918</h3></div>
+        <div class="item-list-1-6" id="orange6"><h3>#DE834D</h3></div>
+        <div class="item-list-1-7" id="orange7"><h3>#F0BB62</h3></div>
+        <div class="item-list-1-8" id="orange8"><h3>#E26A2C</h3></div>
+        <div class="item-list-1-9" id="orange9"><h3>#FDA65D</h3></div>
+      </div>
+    </div>
+
+    <div class="popup" id="popup05">
+      <div class="popup-header">
+        <div class="title">⬜ WHITE</div>
+        <button data-close-button class="close-button">&times;</button>
+      </div>
+
+      <div class="items">
+        <div class="item-list-1-1" id="white1"><h3>#F5F5F5</h3></div>
+        <div class="item-list-1-2" id="white2"><h3>#EEEEEE</h3></div>
+        <div class="item-list-1-3" id="white3"><h3>#FFF9F9</h3></div>
+        <div class="item-list-1-4" id="white4"><h3>#EEF2FF</h3></div>
+        <div class="item-list-1-5" id="white5"><h3>#F7F6F2</h3></div>
+        <div class="item-list-1-6" id="white6"><h3>#F9F9F9</h3></div>
+        <div class="item-list-1-7" id="white7"><h3>#F4F9F9</h3></div>
+        <div class="item-list-1-8" id="white8"><h3>#F1F1F1</h3></div>
+        <div class="item-list-1-9" id="white9"><h3>#EFF8FF</h3></div>
+      </div>
+    </div>
+
+    <div class="popup" id="popup06">
+      <div class="popup-header">
+        <div class="title">🟨 YELLOW</div>
+        <button data-close-button class="close-button">&times;</button>
+      </div>
+      <div class="items">
+        <div class="item-list-1-1" id="yellow1"><h3>#FFE400</h3></div>
+        <div class="item-list-1-2" id="yellow2"><h3>#FFEEAD</h3></div>
+        <div class="item-list-1-3" id="yellow3"><h3>#F6D860</h3></div>
+        <div class="item-list-1-4" id="yellow4"><h3>#FDFF8F</h3></div>
+        <div class="item-list-1-5" id="yellow5"><h3>#FFF323</h3></div>
+        <div class="item-list-1-6" id="yellow6"><h3>#FFCE45</h3></div>
+        <div class="item-list-1-7" id="yellow7"><h3>#D4AC2B</h3></div>
+        <div class="item-list-1-8" id="yellow8"><h3>#FBF46D</h3></div>
+        <div class="item-list-1-9" id="yellow9"><h3>#FFEF78</h3></div>
+      </div>
+    </div>
+
+    <div class="popup" id="popup07">
+      <div class="popup-header">
+        <div class="title">🟥 RED</div>
+        <button data-close-button class="close-button">&times;</button>
+      </div>
+      <div class="items">
+        <div class="item-list-1-1" id="red1"><h3>#DA1212</h3></div>
+        <div class="item-list-1-2" id="red2"><h3>#DD4A48</h3></div>
+        <div class="item-list-1-3" id="red3"><h3>#FF6464</h3></div>
+        <div class="item-list-1-4" id="red4"><h3>#D9534F</h3></div>
+        <div class="item-list-1-5" id="red5"><h3>#FF1700</h3></div>
+        <div class="item-list-1-6" id="red6"><h3>#C84B31</h3></div>
+        <div class="item-list-1-7" id="red7"><h3>#51050F</h3></div>
+        <div class="item-list-1-8" id="red8"><h3>#B91646</h3></div>
+        <div class="item-list-1-9" id="red9"><h3>#FFFFFF</h3></div>
+      </div>
+    </div>
+
+    <div class="popup" id="popup08">
+      <div class="popup-header">
+        <div class="title">🟪 PURPLE</div>
+        <button data-close-button class="close-button">&times;</button>
+      </div>
+      <div class="items">
+        <div class="item-list-1-1" id="purple1"><h3>#A267AC</h3></div>
+        <div class="item-list-1-2" id="purple2"><h3>#E900FF</h3></div>
+        <div class="item-list-1-3" id="purple3"><h3>#750550</h3></div>
+        <div class="item-list-1-4" id="purple4"><h3>#D77FA1</h3></div>
+        <div class="item-list-1-5" id="purple5"><h3>#B762C1</h3></div>
+        <div class="item-list-1-6" id="purple6"><h3>#EA99D5</h3></div>
+        <div class="item-list-1-7" id="purple7"><h3>#9145B6</h3></div>
+        <div class="item-list-1-8" id="purple8"><h3>#F4BEEE</h3></div>
+        <div class="item-list-1-9" id="purple9"><h3>#BC8CF2</h3></div>
+      </div>
+    </div>
+
+    <div id="overlay"></div>
+
+    <div class="footer">
+      <h4>
+        Made By <em>Nguyen Tran</em> | Inspired By
+        <a href="https://colorhunt.co/" target="_blank">ColorHunt</a>
+      </h4>
+    </div>
+
+    <!-- Scripts -->
+    <script
+      src="https://kit.fontawesome.com/ba131a524e.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js" defer></script>
+  </body>
+</html>
